@@ -1,0 +1,35 @@
+{
+  "name": "web-docs-content",
+  "version": "0.0.1",
+  "description": "Content for the Georgian localization of MDN web docs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "static-build": "node scripts/static-build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishotek/web-docs-content.git"
+  },
+  "keywords": [
+    "MND",
+    "web",
+    "documentation",
+    "Georgia",
+    "Georgian"
+  ],
+  "author": "Mikheili Tektumanidze",
+  "license": "Creative Commons Attribution-ShareAlike 2.5",
+  "bugs": {
+    "url": "https://github.com/mishotek/web-docs-content/issues"
+  },
+  "homepage": "https://github.com/mishotek/web-docs-content#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
